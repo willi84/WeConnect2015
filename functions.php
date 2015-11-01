@@ -123,6 +123,11 @@ function weconnect2015_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	wp_register_script('mdl-js', get_template_directory_uri() . '/bower_components/material-design-lite/material.min.js', array(), '1.0.5', true);
+	wp_register_style('mdl-css', get_template_directory_uri() . '/bower_components/material-design-lite/material.min.css', array(), '1.0.5', 'all' );
+	wp_enqueue_script('mdl-js');
+	wp_enqueue_style('mdl-css');
+ 	remove_filter('the_content', 'wpautop');
 }
 add_action( 'wp_enqueue_scripts', 'weconnect2015_scripts' );
 
