@@ -5,9 +5,9 @@
 
 ## links
 - [Grunt build process](http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap/) - example of grunt build process
-- [blank theme](http://underscores.me/) - builds blank theme
+- [blank theme](http://underscores.me/) - builds blank theme with underscores.me
 
 ## Lizenzen
-|underscores.me | GPL 2 or later | direct download |
+| underscores.me | GPL 2 or later | direct download |
 | Material design lite | Apache 2 | by bower  |
 
