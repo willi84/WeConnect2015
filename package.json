@@ -1,0 +1,26 @@
+{
+    "name": "WeConnect2015",
+    "version": "0.1.0",
+    "description": "New Wordpress Theme for WeConnect",
+    "main": "index.php",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/willi84/WeConnect2015.git"
+    },
+    "keywords": [
+        "user.coffee",
+        "MaterialDesignLite",
+        "Wordpress",
+        "RefugeeHackathon",
+        "RefugeesWelcome"
+    ],
+    "author": "Robert Willemelis",
+    "license": "GPL 3",
+    "bugs": {
+        "url": "https://github.com/willi84/WeConnect2015/issues"
+    },
+    "homepage": "https://github.com/willi84/WeConnect2015"
+}
